@@ -1,0 +1,71 @@
+<html lang="html">
+<head>
+<title>exam</title>
+<style>
+
+</style>
+</head>
+<body>
+   <h1>click the present</h1>
+   <h2>click the present</h2>
+   <img src="image.jpg">
+   <button >click me</button>
+   <button>again click</button>
+   <h1>hy now i am gonna do php</h1>
+   <?php
+   echo"the php dancing marjan.
+   ?>
+<!-- <button id="dod">click</button>
+<input type="text" id="ol" placeholder="enter string" value=" wooowww"> -->
+<script>
+// const img=document.querySelector("img").addEventListener("click",function(){
+//    var s=document.getElementById("ol").value;
+//   // var ding=s.split("");
+//    //console.log(ding);
+//       // let sp="wowwww";
+//       for(let r=0;r<s.length;r++){
+//          if(s[r]==s[r+1]){
+//            var p= s.split(s[r]);
+           
+//          }
+//         // r=0;
+//       }
+// this.src="nature.jpg";
+
+// const heading=document.querySelector("h1");
+// heading.innerHTML="<h1>hooray</h1>";
+//    // document.write(p.join(" "));   
+// });
+
+
+
+   const x=10;
+   // console.log(x);
+   console.log(x);
+   if(true){
+      var y=9;
+      console.log(y);
+   }
+   y=y-1;
+   console.log(y);
+   let grocery=["milk","xhoco"];
+   grocery[1]="kix";
+   console.log(grocery[0],grocery[1],grocery[2]);
+
+   function clickme(){
+      console.log("clicked");
+   }
+   const buton=document.querySelector('button');
+   buton.addEventListener('click',clickme);
+   function opoen(event){
+      const image=event.currentTarget;
+      image.src="nature.jpg";
+      image.removeEventListener('click',opoen);
+   }
+   const image=document.querySelector('img');
+   image.addEventListener('click',opoen);
+   
+
+</script>
+</body>
+</html>
